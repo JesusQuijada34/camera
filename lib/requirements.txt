@@ -1,4 +1,3 @@
-customtkinter
 opencv-python
-pillow
-
+numpy
+PyQt5
