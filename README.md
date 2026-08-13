@@ -5,7 +5,9 @@
 
 ---
 
-## **🎯 Características Principales**  
+## **🎯 Características Principales**
+
+La implementación actual usa **PyQt6 y Leviathan-UI** para la ventana de escritorio, y conserva `--cli` para comprobar cámaras en entornos sin display. Si no hay cámara conectada, la GUI permanece utilizable y muestra un estado controlado en lugar de fallar.
 
 ### **1. 🎥 Vista de Cámara en Tiempo Real**  
 - Compatible con múltiples cámaras (webcams, cámaras externas).  
@@ -85,7 +87,7 @@
 - **Python 3.8+**  
 - **Bibliotecas necesarias**:  
   ```bash
-  pip install opencv-python customtkinter pillow numpy
+  pip install opencv-python numpy PyQt6 leviathan-ui
   ```
 - **Sistemas soportados**: Windows 10/11, macOS (Intel/M1), Linux (Ubuntu, Fedora, etc.).  
 
@@ -113,7 +115,7 @@ Here are the **requirements** to run **Universal Camera Pro**:
 ### 📋 **Python Dependencies**
 Install these libraries via `pip`:
 ```bash
-pip install opencv-python customtkinter pillow numpy
+pip install opencv-python numpy PyQt6 leviathan-ui
 ```
 or
 
@@ -149,4 +151,6 @@ autorun/.bat
 🚀 **Ready to run!** Just execute the Python script after installing dependencies.  
 ```bash
 python camera.py
+# Diagnóstico sin abrir la GUI
+python camera.py --cli
 ```
