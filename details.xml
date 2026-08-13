@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <app>
-  <publisher>Influent</publisher>
+  <publisher>influent</publisher>
   <app>camera</app>
   <name>Camera Selfie</name>
-  <version>v1.0-26.08-21.56-AlphaCube</version>
-  <correlationid>ed2b1346d0749339bd18924a28353d1891fe014f0bd74faa39a30457298a411b</correlationid>
+  <version>v1.0-26.08-21.56</version>
+  <correlationid>db3f96ea3674eddc5bb6c9346b1a6a2e655d2f7ed342982a1a926a11ce516492</correlationid>
   <rate>Todas las edades</rate>
   <author>JesusQuijada34</author>
   <platform>AlphaCube</platform>
